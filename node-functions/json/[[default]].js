@@ -18,7 +18,7 @@ async function ipinfo(ip) {
 }
 // 添加根路由处理
 app.get("/",async (req, res) => {
-  res.json({ message: "Functions!");
+  res.json({ message: "Functions!"});
 });
 
 // 导出处理函数
